@@ -112,6 +112,7 @@ public class stepDefination extends Utils
 		//no need to write pojo for one key value pair 
 		//eg place_id
 	   res=given().spec(requestSpecification()).body(data.deletePlacePayload(place_id));
+	   System.out.println();
 	   
 	}
 
